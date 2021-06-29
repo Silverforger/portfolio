@@ -1,0 +1,36 @@
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.headingflex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+.mynameletter {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  font-family: "Permanent Marker", cursive;
+  font-size: clamp(40px, 5vw, 200px);
+}
+
+.myrole {
+  margin-top: 5px;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: clamp(10px, 2.5vw, 25px);
+}
+
+.headingline {
+  margin-top: 12px;
+  padding: 0;
+  width: 100%;
+  border: 2px solid #FFF;
+  border-radius: 3px;
+  background-color: black;
+}
