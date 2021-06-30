@@ -26,16 +26,18 @@ export default function Home() {
           <h1 className={homeStyles.mynameletter}>n</h1>
         </div>
         <h3 className={homeStyles.myrole}>WEB DEVELOPER</h3>
-        <div className={homeStyles.headinglineflex}>
-          <div className={homeStyles.headinglinebox}></div>
+        <div className={homeStyles.headinglinecontainer}>
+          {/* <div className={homeStyles.headinglinebox}></div> */}
           <div className={homeStyles.headingline}></div>
-          <div className={homeStyles.headinglinebox}></div>
+          <div className={homeStyles.navcircle}></div>
+          {/* <div className={homeStyles.headinglinebox}></div> */}
         </div>
-        <div className={homeStyles.navtab}>
+        {/* <div className={homeStyles.navtab}>
           <Navbutton tabTitle="PROFILE" />
           <Navbutton tabTitle="PROJECTS" />
           <Navbutton tabTitle="CONTACT ME" />
-        </div>
+        </div> */}
+
       </div>
     </div>
   );
