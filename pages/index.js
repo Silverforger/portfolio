@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Navbutton from "../components/Navbutton";
 import homeStyles from "../styles/Home.module.css";
+import { HiOutlineCode } from "react-icons/hi";
 
 export default function Home() {
   return (
@@ -27,10 +28,9 @@ export default function Home() {
         </div>
         <h3 className={homeStyles.myrole}>WEB DEVELOPER</h3>
         <div className={homeStyles.headinglinecontainer}>
-          {/* <div className={homeStyles.headinglinebox}></div> */}
           <div className={homeStyles.headingline}></div>
-          <div className={homeStyles.navcircle}></div>
-          {/* <div className={homeStyles.headinglinebox}></div> */}
+          <div className={homeStyles.navcircle}><HiOutlineCode /></div>
+          <div className={homeStyles.headingline}></div>
         </div>
         {/* <div className={homeStyles.navtab}>
           <Navbutton tabTitle="PROFILE" />
